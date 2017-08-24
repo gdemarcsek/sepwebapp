@@ -727,6 +727,11 @@ template(`webapp_define_attributes',`
 template(`webapp_types',`
 
 	gen_require(`
+		attribute webapp_file_type;
+		attribute webapp_ld_so_cache_type;
+		attribute webapp_net_conf_type;
+		attribute webapp_passwd_file_type;
+		attribute webapp_php_conf_type;
 		attribute netif_type;
 		attribute node_type;
 		attribute polydir;
